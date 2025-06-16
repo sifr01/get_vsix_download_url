@@ -11,3 +11,8 @@ Splits itemName into publisher (e.g., GitHub) and extension_name (e.g., copilot)
 ### Version Extraction:
 Fetches the extension’s Marketplace page.
 Uses a regular expression to find the version number (e.g., 1.2.3) in the page’s HTML, typically in a JSON-LD or meta tag.
+### Download:
+paste the URL in your browser or wget it to download it
+### Post-download:
+You will need to rename the file download to have filename extension suffix '.vsix'. Then go to:
+VScodium > Extensions > ... (settings) > Install from VSIX > [select downloaded file]
